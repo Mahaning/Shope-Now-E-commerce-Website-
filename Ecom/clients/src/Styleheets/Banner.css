@@ -1,0 +1,23 @@
+.banner-container {
+    position: relative;
+    height: 300px; /* Set the desired height for the banners */
+    overflow: hidden; /* Hide overflow of text */
+  }
+  
+  .banner-image {
+    width: 100%; /* Make image width 100% of slider */
+  }
+  
+  .banner-text {
+    position: absolute;
+    bottom: 10px; /* Adjust the position of the text as needed */
+    left: 10px; /* Adjust the position of the text as needed */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Add background color with transparency */
+    padding: 5px;
+    max-width: calc(100% - 20px); /* Limit width of text container */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+    white-space: nowrap; /* Prevent wrapping of text */
+  }
+  
